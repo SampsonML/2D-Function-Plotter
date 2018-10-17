@@ -14,15 +14,15 @@ import argparse
 #################################################################################
 ap = argparse.ArgumentParser(description = 'The bounds and function')
 ap.add_argument('lowx',action = "store" , help = 'The lower bounds of x'
-,type = int,default = 2)
+,type = float,default = 2)
 ap.add_argument('hix',action = "store" , help = 'The upper bounds of x'
-,type = int,default = 2)
+,type = float,default = 2)
 ap.add_argument('lowy',action = "store" , help = 'The lower bounds of y'
-,type = int,default = 2)
+,type = float,default = 2)
 ap.add_argument('hiy',action = "store" , help = 'The upper bounds of y'
-,type = int,default = 2)
+,type = float,default = 2)
 ap.add_argument('lim',action = "store" , help = 'The Z limits'
-,type = int,default = 2)
+,type = float,default = 2)
 args = vars(ap.parse_args())
 #################################################################################
 
