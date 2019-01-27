@@ -1,5 +1,7 @@
 # Surface-Integral-Plotter
-[Python] A short script to create 3d visualisations of surface integrals using pythons matplotlib package.
+[Python] A short script to create 3d visualisations of 2D functions using pythons matplotlib package.
+Originally created to plot surface integrals, hence the name.
+Note code does not compute integrals.
 
 Takes command line inputs for the bounds of the 2 variable function.
 Inputs taken as integers. 
